@@ -1,0 +1,28 @@
+{
+  "name": "genesis-data-agents",
+  "displayName": "Genesis Data Agents",
+  "version": "0.1.0",
+  "description": "Connect Claude Code to your Genesis server: talk to Genesis data agents, search your context graph, run blueprints and missions, and prove migrations with Prover.",
+  "author": {
+    "name": "Genesis Computing",
+    "email": "support@genesiscomputing.ai",
+    "url": "https://genesiscomputing.com"
+  },
+  "homepage": "https://docs.genesiscomputing.com/docs/home",
+  "repository": "https://github.com/genesis-computing-ai/genesis-claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["data", "data-engineering", "agents", "migration", "snowflake", "databricks", "mcp"],
+  "icon": "./assets/genesis-logo.png",
+  "documentationUrl": "https://docs.genesiscomputing.com/docs/home",
+  "supportUrl": "mailto:support@genesiscomputing.ai",
+  "privacyPolicyUrl": "https://genesiscomputing.com/privacy",
+  "termsOfServiceUrl": "https://genesiscomputing.com/termsofuse",
+  "userConfig": {
+    "genesis_host": {
+      "type": "string",
+      "title": "Genesis server URL",
+      "description": "The address of your Genesis server, for example https://genesis.yourcompany.com (no trailing slash). Your Genesis admin can find it on Config > Agent Gateways.",
+      "required": true
+    }
+  }
+}

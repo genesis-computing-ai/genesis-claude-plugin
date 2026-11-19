@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "genesis": {
+      "type": "http",
+      "url": "${user_config.genesis_host}/mcp",
+      "oauth": {
+        "callbackPort": 31318
+      }
+    }
+  }
+}

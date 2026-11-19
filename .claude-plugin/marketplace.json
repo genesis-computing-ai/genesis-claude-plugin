@@ -1,0 +1,14 @@
+{
+  "name": "genesis-computing",
+  "owner": {
+    "name": "Genesis Computing",
+    "email": "support@genesiscomputing.ai"
+  },
+  "description": "Genesis Computing plugins for Claude Code: connect to your Genesis data agents.",
+  "plugins": [
+    {
+      "name": "genesis-data-agents",
+      "source": "./"
+    }
+  ]
+}
